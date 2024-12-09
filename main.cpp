@@ -1,15 +1,8 @@
 #include <iostream>
-#include <string>
-#include <format>
 
 int main()
 {
-    int apples{ 5 };
+	std::cout << sizeof(int) << '\n'; // print how many bytes of memory an int value takes
 
-    std::cout
-        << "I have "
-        << apples
-        << " apples";
-
-    return 0;
+	return 0;
 }
