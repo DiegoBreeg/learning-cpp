@@ -1,11 +1,12 @@
 #include <iostream>
 
+int add(int x, int y)
+{
+	return x + y;
+}
+
 int main()
 {
-	int n{};
-
-	std::cout << "Enter an integer: ";
-	std::cin >> n;
-	std::cout << "Double that number is: " << n * 2 << "\n";
+	std::cout << add(4, 5) << '\n';
 	return 0;
 }
