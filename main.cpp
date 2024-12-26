@@ -1,12 +1,14 @@
 #include <iostream>
 
-int add(int x, int y)
-{
-	return x + y;
-}
-
 int main()
 {
-	std::cout << add(4, 5) << '\n';
+	int n{5};
+
+	if(true)
+	{
+		n = 10;
+	}
+
+	std::cout << n << '\n';
 	return 0;
 }
