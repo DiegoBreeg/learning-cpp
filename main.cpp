@@ -2,13 +2,7 @@
 
 int main()
 {
-	int n{5};
-
-	if(true)
-	{
-		n = 10;
-	}
-
-	std::cout << n << '\n';
+	std::string c = "diego";
+	std::cout << c << '\n';
 	return 0;
 }
